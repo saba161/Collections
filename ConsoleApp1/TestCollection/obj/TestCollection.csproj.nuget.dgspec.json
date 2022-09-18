@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\saba.koguashvili\\Desktop\\ConsoleApp1\\TestCollection\\TestCollection.csproj": {}
+    "C:\\Users\\giokoguashvili\\Source\\Repos\\Collections\\ConsoleApp1\\TestCollection\\TestCollection.csproj": {}
   },
   "projects": {
-    "C:\\Users\\saba.koguashvili\\Desktop\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj": {
+    "C:\\Users\\giokoguashvili\\Source\\Repos\\Collections\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\saba.koguashvili\\Desktop\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
+        "projectUniqueName": "C:\\Users\\giokoguashvili\\Source\\Repos\\Collections\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
         "projectName": "ConsoleApp1",
-        "projectPath": "C:\\Users\\saba.koguashvili\\Desktop\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
-        "packagesPath": "C:\\Users\\saba.koguashvili\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\saba.koguashvili\\Desktop\\ConsoleApp1\\ConsoleApp1\\obj\\",
+        "projectPath": "C:\\Users\\giokoguashvili\\Source\\Repos\\Collections\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
+        "packagesPath": "C:\\Users\\giokoguashvili\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\giokoguashvili\\Source\\Repos\\Collections\\ConsoleApp1\\ConsoleApp1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\saba.koguashvili\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\giokoguashvili\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -43,10 +43,6 @@
             "System.Configuration.ConfigurationManager": {
               "target": "Package",
               "version": "[6.0.0, )"
-            },
-            "XAct.Core.PCL": {
-              "target": "Package",
-              "version": "[0.0.5014, )"
             }
           },
           "imports": [
@@ -55,7 +51,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -64,21 +61,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\saba.koguashvili\\Desktop\\ConsoleApp1\\TestCollection\\TestCollection.csproj": {
+    "C:\\Users\\giokoguashvili\\Source\\Repos\\Collections\\ConsoleApp1\\TestCollection\\TestCollection.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\saba.koguashvili\\Desktop\\ConsoleApp1\\TestCollection\\TestCollection.csproj",
+        "projectUniqueName": "C:\\Users\\giokoguashvili\\Source\\Repos\\Collections\\ConsoleApp1\\TestCollection\\TestCollection.csproj",
         "projectName": "TestCollection",
-        "projectPath": "C:\\Users\\saba.koguashvili\\Desktop\\ConsoleApp1\\TestCollection\\TestCollection.csproj",
-        "packagesPath": "C:\\Users\\saba.koguashvili\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\saba.koguashvili\\Desktop\\ConsoleApp1\\TestCollection\\obj\\",
+        "projectPath": "C:\\Users\\giokoguashvili\\Source\\Repos\\Collections\\ConsoleApp1\\TestCollection\\TestCollection.csproj",
+        "packagesPath": "C:\\Users\\giokoguashvili\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\giokoguashvili\\Source\\Repos\\Collections\\ConsoleApp1\\TestCollection\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\saba.koguashvili\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\giokoguashvili\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -92,8 +89,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\saba.koguashvili\\Desktop\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj": {
-                "projectPath": "C:\\Users\\saba.koguashvili\\Desktop\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj"
+              "C:\\Users\\giokoguashvili\\Source\\Repos\\Collections\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj": {
+                "projectPath": "C:\\Users\\giokoguashvili\\Source\\Repos\\Collections\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj"
               }
             }
           }
@@ -131,7 +128,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -140,7 +138,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
