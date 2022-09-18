@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Hxp1dX0aFY5KCCEL/ikSt/ODtzJLTXyyhEdG4CAt96LH35CqHEaNGT/EBCdbOl5XQIONgm2k/EWnQc9419kr3Q==",
+  "dgSpecHash": "x+fgtqvkahMoDkr0ewDTq38doBPZ+TDc08ra6+Jsremjdc2X/aVpQPbik1p2TmU5iVDAADhU/fjrz0bSkW7Rhw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\giokoguashvili\\Source\\Repos\\Collections\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
+  "projectFilePath": "C:\\Users\\giokoguashvili\\source\\repos\\Collections\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\giokoguashvili\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
     "C:\\Users\\giokoguashvili\\.nuget\\packages\\system.configuration.configurationmanager\\6.0.0\\system.configuration.configurationmanager.6.0.0.nupkg.sha512",

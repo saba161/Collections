@@ -383,11 +383,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\giokoguashvili\\Source\\Repos\\Collections\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
+      "projectUniqueName": "C:\\Users\\giokoguashvili\\source\\repos\\Collections\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
       "projectName": "ConsoleApp1",
-      "projectPath": "C:\\Users\\giokoguashvili\\Source\\Repos\\Collections\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
+      "projectPath": "C:\\Users\\giokoguashvili\\source\\repos\\Collections\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
       "packagesPath": "C:\\Users\\giokoguashvili\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\giokoguashvili\\Source\\Repos\\Collections\\ConsoleApp1\\ConsoleApp1\\obj\\",
+      "outputPath": "C:\\Users\\giokoguashvili\\source\\repos\\Collections\\ConsoleApp1\\ConsoleApp1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\giokoguashvili\\AppData\\Roaming\\NuGet\\NuGet.Config",
