@@ -2,7 +2,7 @@ using ConsoleApp1;
 using NUnit.Framework;
 using System.Linq;
 
-namespace TestCollection
+namespace Test
 {
     public class Tests
     {
