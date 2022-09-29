@@ -1,64 +1,68 @@
 ﻿using System.Collections;
 
-namespace ConsoleApp1
+namespace ConsoleApp1;
+
+public class MyList<T> : IEnumerable<T>
 {
-    public class MyList<T> : IEnumerable<T>
+    private int _size;
+    private int _currentSize;
+    private T[] _array;
+
+    public MyList(int size = 0)
     {
-        private int size;
-        private int currentSize;
-        private T[] array;
+        _array = new T[size];
+    }
 
-        public MyList(int size = 5)
+    public void AddItem(T item)
+    {
+        if (_currentSize == 0)
         {
-            array = new T[size];
-            this.size = size;
+            _size = 1;
+            _array = new T[_size];
         }
 
-        public void AddItem(T item)
+        if (_currentSize >= _size)
         {
-            if (currentSize >= size)
-            {
-                T[] result = MergeTwoArray(array);
-                result[currentSize] = item;
-                currentSize++;
-                size = result.Length;
-                array = result;
-            }
-            else
-            {
-                array[currentSize] = item;
-                currentSize++;
-            }
+            T[] result = MergeTwoArray(_array);
+            result[_currentSize] = item;
+            _currentSize++;
+            _size = result.Length;
+            _array = result;
         }
+        else
+        {
+            _array[_currentSize] = item;
+            _currentSize++;
+        }
+    }
 
-        public T First()
-        {
-            return array[0];
-        }
+    public T First()
+    {
+        return _array[0];
+    }
 
-        private T[] MergeTwoArray(T[] first)
+    private T[] MergeTwoArray(T[] first)
+    {
+        T[] newArray = new T[_size + 1];
+        int i = 0;
+        foreach (T item in first)
         {
-            T[] newArray = new T[size * 2];
-            int i = 0;
-            foreach (T item in first)
-            {
-                newArray[i] = item;
-                i++;
-            }
-            return newArray;
+            newArray[i] = item;
+            i++;
         }
+        return newArray;
+    }
 
-        public IEnumerator<T> GetEnumerator()
+    public IEnumerator<T> GetEnumerator()
+    {
+        foreach (T item in _array)
         {
-            foreach (T item in array)
-            {
-                yield return item;
-            }
+            yield return item;
         }
+    }
 
-        IEnumerator IEnumerable.GetEnumerator()
-        {
-            return GetEnumerator();
-        }
+    IEnumerator IEnumerable.GetEnumerator()
+    {
+        return GetEnumerator();
     }
 }

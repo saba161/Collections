@@ -7,7 +7,7 @@ namespace TestCollection
     public class Tests
     {
         [Test]
-        public void Test_First_Items()
+        public void Check_First_Items()
         {
             MyList<int> list = new MyList<int>();
             list.AddItem(1);
@@ -25,7 +25,7 @@ namespace TestCollection
             MyList<int> list = new MyList<int>();
 
             Enumerable
-                .Range(0, initSize - 1)
+                .Range(0, initSize)
                 .Select(i =>
                 {
                     list.AddItem(i);
@@ -53,8 +53,6 @@ namespace TestCollection
                 })
                 .ToList();
 
-
-
             var result = 0;
 
             list
@@ -75,9 +73,10 @@ namespace TestCollection
 
             MyList<int> list = new MyList<int>();
 
-            Enumerable
-                .Range(0, listSize)
-                .Select(i =>
+            var range = Enumerable
+                 .Range(0, listSize);
+
+            range.Select(i =>
                 {
                     list.AddItem(i);
                     return true;
@@ -88,10 +87,17 @@ namespace TestCollection
         }
 
         [Test]
-        public void Chekc_init_size()
+        public void Check_init_size()
         {
             MyList<int> list = new MyList<int>();
             Assert.AreEqual(0, list.Count());
+        }
+
+        [Test]
+        public void Check_list_length_with_default_size()
+        {
+            MyList<int> list = new MyList<int>(4);
+            Assert.AreEqual(4, list.Count());
         }
     }
 }
